@@ -18,7 +18,7 @@ MyToken is a simpl Smart contract allows for minting and burning of tokens and k
 
 ## Usage
 
-### Minting Tokens
+1. ### Minting Tokens
 
 Call the `mint` function with the desired address and value. This will increase the total token supply and the balance of the given address.
 
@@ -26,12 +26,8 @@ Call the `mint` function with the desired address and value. This will increase 
 mint(address _address, uint value)
 
 
-### Burning Tokens
 
-Call the `burn` function with the desired address and value. This will decrease the total token supply and the balance of the given address.Ensures that the balance of the address is sufficient to burn the specified amount i.e balances[_address] >= _value
 
-```solidity
-burn(address _address, uint value)
 
 
 
