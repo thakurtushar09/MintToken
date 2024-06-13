@@ -24,3 +24,15 @@ Call the `mint` function with the desired address and value. This will increase 
 
 ```solidity
 mint(address _address, uint value)
+
+
+### Burning Tokens
+
+Call the `burn` function with the desired address and value. This will decrease the total token supply and the balance of the given address.Ensures that the balance of the address is sufficient to burn the specified amount i.e balances[_address] >= _value
+
+```solidity
+burn(address _address, uint value)
+
+
+
+
